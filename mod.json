@@ -1,0 +1,44 @@
+{
+    "geode": "3.7.0",
+    "id": "kullanici.frame_window_counter",
+    "version": "v1.0.0",
+    "name": "Frame Window Counter",
+    "developer": "KullaniciAdin",
+    "description": "nan gd benzeri tutarli frame window / FPS sayaci",
+    "gd": {
+        "win": "2.206",
+        "android": "2.206",
+        "mac": "2.206"
+    },
+    "settings": {
+        "enabled": {
+            "type": "bool",
+            "default": true,
+            "name": "Aktif"
+        },
+        "update_interval": {
+            "type": "float",
+            "default": 0.25,
+            "name": "Guncelleme Araligi (sn)",
+            "min": 0.05,
+            "max": 1.0
+        },
+        "window_size": {
+            "type": "int",
+            "default": 60,
+            "name": "Frame Window Boyutu",
+            "min": 10,
+            "max": 240
+        },
+        "show_max": {
+            "type": "bool",
+            "default": true,
+            "name": "Max FPS Goster"
+        },
+        "show_min": {
+            "type": "bool",
+            "default": true,
+            "name": "Min FPS Goster"
+        }
+    }
+}
